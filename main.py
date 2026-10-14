@@ -1,5 +1,5 @@
 def main():
-    print("Hello from airflow-tut!")
+    print("Hello from shaspace-data-lab!")
 
 
 if __name__ == "__main__":
