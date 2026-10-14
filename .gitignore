@@ -1,10 +1,80 @@
 # Python-generated files
 __pycache__/
+*.py[cod]
 *.py[oc]
+*$py.class
 build/
 dist/
 wheels/
+*.egg-info/
 *.egg-info
+*.manifest
+*.spec
 
 # Virtual environments
+.venv/
+.env
+.envrc
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 .venv
+
+# Local tooling and caches
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pybuilder/
+.ipynb_checkpoints/
+cover/
+htmlcov/
+.tox/
+.nox/
+.cache/
+.hypothesis/
+
+# Packaging / build artifacts
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+share/python-wheels/
+*.egg
+MANIFEST
+
+# Project-specific local data
+airflow-webserver.pid
+*.log
+
+# IDE and editor metadata
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tempCodeRunnerFile.py
+
+# Cython debug symbols
+cython_debug/
+
+# Docker / local state
+.docker/
+
+# Common Python runtime files
+*.sqlite3
+*.sqlite3-journal
