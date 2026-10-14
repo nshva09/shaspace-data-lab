@@ -54,7 +54,6 @@ share/python-wheels/
 MANIFEST
 
 # Project-specific local data
-airflow-webserver.pid
 *.log
 
 # IDE and editor metadata
